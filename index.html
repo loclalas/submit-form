@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Submit Form</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="form-content">
+        <form>
+          <label>Số Điện Thoại</label>
+          <input
+            type="text"
+            name="phonenumber"
+            placeholder="Số Điện Thoại"
+            class="phonenumber"
+          />
+
+          <label>Email</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            class="email"
+          /><br />
+
+          <label>Chọn tỉnh/thành phố:</label>
+          <select name="city" class="city"></select>
+
+          <label>Chọn huyện:</label>
+          <select name="district" class="district"></select>
+
+          <input class="submit-button" type="submit" value="Submit" />
+        </form>
+      </div>
+      <div class="table-container">
+        <table>
+          <tr class="head-row">
+            <th>Số điện thoại</th>
+            <th>Email</th>
+            <th>Tỉnh/Thành Phố</th>
+            <th>Huyện</th>
+          </tr>
+          <!-- <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+            <td>Germany</td>
+          </tr>
+          <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+            <td>Mexico</td>
+          </tr> -->
+        </table>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
